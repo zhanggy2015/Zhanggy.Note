@@ -29,7 +29,7 @@
                 }
                 else
                 {
-                    sum += i;
+                    sum -= i;
                 }
             }
 
