@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="ArithmeticProgression.cs" />
     <Compile Include="Bubbling.cs" />
+    <Compile Include="DeepCopy.cs" />
     <Compile Include="FibonacciSequence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
