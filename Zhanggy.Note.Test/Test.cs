@@ -26,9 +26,9 @@
 
 using System;
 
-namespace ConsoleApplication1
+namespace Zhanggy.Note.Test
 {
-    class App
+    public class Test
     {
         //第一个参数必须是整型，但后面的参数个数是可变的。
         //而且由于定的是object数组，所有的数据类型都可以做为参数传入
@@ -41,7 +41,7 @@ namespace ConsoleApplication1
             }
         }
 
-        static void Main()
+        public static void Main()
         {
             //可变参数部分传入了三个参数，都是字符串类型
             UseParams(1, "a", "b", "c");
