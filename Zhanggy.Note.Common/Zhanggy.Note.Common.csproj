@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B7F7F4E-0600-4F56-94E7-65DB09A2AA30}</ProjectGuid>
+    <ProjectGuid>{6244F691-2CD4-4467-9ADC-FD6FF22339E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Zhanggy.Note.Test</RootNamespace>
-    <AssemblyName>Zhanggy.Note.Test</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RootNamespace>Zhanggy.Note.Common</RootNamespace>
+    <AssemblyName>Zhanggy.Note.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,18 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArithmeticProgression.cs" />
-    <Compile Include="Bubbling.cs" />
-    <Compile Include="DeepCopy.cs" />
-    <Compile Include="FibonacciSequence.cs" />
+    <Compile Include="DllInvoke.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Zhanggy.Note.Common\Zhanggy.Note.Common.csproj">
-      <Project>{6244f691-2cd4-4467-9adc-fd6ff22339e7}</Project>
-      <Name>Zhanggy.Note.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

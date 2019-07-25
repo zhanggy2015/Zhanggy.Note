@@ -25,6 +25,7 @@
 
 
 using System;
+using Zhanggy.Note.Common;
 
 namespace Zhanggy.Note.Test
 {
@@ -41,6 +42,8 @@ namespace Zhanggy.Note.Test
             }
         }
 
+        //private delegate int TestInvoke(string a);
+
         public static void Main()
         {
             //可变参数部分传入了三个参数，都是字符串类型
@@ -49,6 +52,10 @@ namespace Zhanggy.Note.Test
             UseParams(2, "d", 100, 33.33, new double[] { 1.1, 2.2 });
 
             Console.ReadLine();
+
+            //DllInvoke dll = new DllInvoke(Environment.CurrentDirectory+"/Bin/a.dll");
+            //TestInvoke test = (TestInvoke)dll.Invoke("TestInvoke", typeof(TestInvoke));
+            //int resultTemp = test("测试");
         }
     }
 }
