@@ -46,6 +46,8 @@
     <Compile Include="Strategy\FlyBehavior.cs" />
     <Compile Include="Strategy\QucakBehavior.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Observer\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2043
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhanggy.Note", "Zhanggy.Note\Zhanggy.Note.csproj", "{30A93CCE-553E-40C2-AE7D-99252D71EB78}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhanggy.Note.DesignMode", "Zhanggy.Note.DesignMode\Zhanggy.Note.DesignMode.csproj", "{A0EE4158-E968-4351-8079-113D2B8A7D49}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhanggy.Note.DesignModeTests", "Zhanggy.Note.DesignModeTests\Zhanggy.Note.DesignModeTests.csproj", "{BDAE5C45-2BD9-44C5-9367-FDA2BFA1A28F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{B12B9F54-B165-4A87-A17E-83817A6676E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
